@@ -1,0 +1,56 @@
+{
+    "compilerOptions": {
+      // 1. Specify ECMAScript target version
+      "target": "es6",
+      
+      // 2. List of library files to be included in the compilation
+      "lib": ["dom", "dom.iterable", "esnext"],
+      
+      // 3. Allow JavaScript files to be compiled
+      "allowJs": true,
+      
+      // 4. Skip type checking of declaration files
+      "skipLibCheck": true,
+      
+      // 5. Enables emit interoperability between CommonJS and ES Modules
+      "esModuleInterop": true,
+      
+      // 6. Allow default imports from modules with no default export
+      "allowSyntheticDefaultImports": true,
+      
+      // 7. Enable all strict type checking options
+      "strict": true,
+      
+      // 8. Ensure consistent casing in file names
+      "forceConsistentCasingInFileNames": true,
+      
+      // 9. Report errors for fallthrough cases in switch statements
+      "noFallthroughCasesInSwitch": true,
+      
+      // 10. Specify module code generation
+      "module": "esnext",
+      
+      // 11. Specify module resolution strategy
+      "moduleResolution": "node",
+      
+      // 12. Allow importing JSON modules
+      "resolveJsonModule": true,
+      
+      // 13. Ensure each file can be safely transpiled without relying on other imports
+      "isolatedModules": true,
+      
+      // 14. Do not emit compiler output files
+      "noEmit": true,
+      
+      // Specify JSX code generation
+      "jsx": "react-jsx",
+      
+      // Base directory to resolve non-relative module names
+      "baseUrl": "src"
+    },
+    // Specifies a list of glob patterns that match files to be included in compilation
+    "include": ["src/**/*"],
+    
+    // Specifies a list of files/folders to be excluded from compilation
+    "exclude": ["node_modules", "build", "dist", "scripts", "acceptance-tests", "webpack", "jest"]
+  }
